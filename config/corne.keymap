@@ -72,9 +72,6 @@
                 };
 
                 navigate_layer {
-// Save these bluetooth things for later:
-// | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-// &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
 
 // -----------------------------------------------------------------------------------------
 // | empty | PREV  | PLAY | NEXT |      |     |   |      |     |  UP |  9  |  0  | empty |
@@ -82,10 +79,10 @@
 // | empty | BTCLR | BT1  | BT2  | BT3  | BT4 |   |      | END |     |     |     | empty |
 //                        | GUI  |      | SPC |   | ENT  |     | ALT |
                         bindings = <
-   &none &kp K_PREV &kp K_PLAY_PAUSE &kp K_NEXT       &trans   &trans         &trans   &kp PG_UP &kp UP   &trans    &trans &none
-   &none &kp LGUI   &kp VOLD         &kp VOLU     &bt K_MUTE   &trans         &kp HOME &kp LEFT  &kp DOWN &kp RIGHT &trans &none
-   &none &bt BT_CLR &bt BT_SEL 0     &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3   &trans   &kp END   &trans   &trans    &trans &none
-                          	        &trans     &trans       &trans         &trans   &trans    &trans
+   &none &kp K_PREV &kp K_PLAY_PAUSE &kp K_NEXT       &trans       &trans         &trans   &kp PG_UP &kp UP   &trans    &trans &none
+   &none &kp LGUI   &kp VOLD         &kp VOLU         &kp K_MUTE   &trans         &kp HOME &kp LEFT  &kp DOWN &kp RIGHT &trans &none
+   &none &bt BT_CLR &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2 &bt BT_SEL 3   &trans   &kp END   &trans   &trans    &trans &none
+                          	        &trans        &trans       &trans         &trans   &trans    &trans
                         >;
                 };
 
