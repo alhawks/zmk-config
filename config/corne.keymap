@@ -69,8 +69,6 @@
                     	        &kp LGUI  &trans    &kp SPACE   &kp RET   &trans   &kp RALT
                         >;
                 };
-        };
-};
 
                 navigate_layer {
 // Save these bluetooth things for later:
@@ -103,4 +101,5 @@
                           	        &trans     &trans       &trans      &trans  &trans   &trans
                         >;
                 };
+        };
 };
