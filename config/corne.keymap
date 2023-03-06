@@ -93,10 +93,10 @@
 // | empty | F11 | F12 | F13 | F14 | F15 |   | F16 | F17 | F18 | F19 | F20 | empty |
 //                     | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &none &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &none
-   &none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &none
-   &none &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &none
-                          	        &trans     &trans       &trans      &trans  &trans   &trans
+   &none &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &none
+   &none &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &kp F6  &kp F7  &kp F8  &kp F9  &kp F10 &none
+   &none &kp F11 &kp F12 &kp F13 &kp F14 &kp F15   &kp F16 &kp F17 &kp F18 &kp F19 &kp F20 &none
+                         &trans  &trans  &trans    &trans  &trans  &trans
                         >;
                 };
         };
