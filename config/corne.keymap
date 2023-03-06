@@ -34,7 +34,6 @@
    &none &hm LGUI A &hm LALT S &hm LSHIFT D &hm LCTRL F &kp G              &hm RCTRL H &hm RSHIFT J &hm RALT K &hm RGUI L &kp APOS &none
    &none &kp Z      &kp X      &kp C        &kp V       &kp B              &kp N       &kp M        &kp COMMA  &kp DOT    &kp FSLH &none
                         &lt NAVIGATE ESC &kp LSHIFT  &lt SYMBOL BSPC &lt FUNCTION RET &hm HYP SPACE  &lt NUMBER TAB
-
                         >;
                 };
                 number_layer {
